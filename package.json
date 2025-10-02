@@ -8,13 +8,23 @@
     "build": "webpack --mode=production"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Zachariah Ayers",
+    "email": "zach@meridianvega.com",
+    "company": "Meridian Vega"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": "22.20.0"
+  },
   "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "^1.7.0",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "wasm-pack": "^0.13.1"
   }
 }
